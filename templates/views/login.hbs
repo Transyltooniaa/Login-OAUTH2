@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>    
+
+
+    <style>
+            body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f1f1f1;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .google-btn {
+            display: inline-block;
+            background-color: #4285f4;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            position: relative;
+            top : 80px;
+            right: 215px;
+        }
+
+        .google-btn:hover {
+            background-color: #357ae8;
+        }
+
+
+        
+    </style>
+
+
+    <div>
+        <header>
+            <h1>
+                login using oauth2
+            </h1>
+        </header>
+    </div>
+
+    <div>
+        <main>
+            <a class="google-btn" href="/auth/google">Login with Google</a>
+        </main>
+    </div>
+
+</body>
+</html>

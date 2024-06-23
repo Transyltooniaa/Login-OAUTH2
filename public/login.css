@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f1f1f1;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.google-btn {
+    display: inline-block;
+    background-color: #4285f4;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    position: relative;
+    top : 80px;
+    right: 215px;
+}
+
+.google-btn:hover {
+    background-color: #357ae8;
+}
